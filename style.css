@@ -33,5 +33,25 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 50rem;   
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
 }
